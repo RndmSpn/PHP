@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+/* CSS Document*/
+
+/*/////////////////////////////////////////////// RESET CSS  //////////////////////////////////////////////////////////*/
+
+
+
+html,body,div,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset{
+
+    padding:0;
+    margin:0;
+    font-size:100%;
+    font-weight:normal;    
+}
+ol{
+    margin-left:1.4em;
+    list-style:decimal;
+    }
+ul{
+    margin-left:0;
+    list-style:none;
+}
+img{
+    border:0;
+    
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+/*//////////////  FIN RESET  ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* CSS Document */
+
+html{
+
+    background-color: burlywood;
+}
+#tabla body{
+
+    background-color:rgb(115, 115, 139);
+}
+#tabla div{
+    
+    background-color:rgb(79, 79, 207);
+    align-self:center;
+}
+
+#tabla form{
+
+    align-self:center;
+    
+    width: 380px;
+    height: 200px;
+
+    border-collapse:collapse;
+    display: block;
+    
+    margin-left: 30%; 
+    background-color:rgb(133, 133, 216);
+    
+    font-size: 26px;
+    color:rgb(0, 0, 0);
+    width: 600px; 
+    text-align: center;
+    color: rgb(206, 204, 77);
+}
+
+#tabla  h1{
+
+    border: 1px rgb(0, 0, 0) solid ;
+    height: 50px;
+    margin-top: 20px;
+    background-color:rgb(2, 2, 112);
+    margin-bottom: -20px;
+   
+}
+#tabla table{
+
+
+    align-self:center;
+    margin-left: 172px;
+    margin-top: 18px;
+
+
+}
+#tabla caption{
+
+    background-color:rgb(112, 112, 148);
+    border:solid rgb(27, 5, 5);
+    color: rgb(255, 231, 10);
+
+}
+#tabla tr {
+
+    background-color:rgb(49, 49, 66);
+    border: 1px rgb(64, 65, 63) solid ;
+    color: rgb(94, 223, 43);
+}
+#tabla td label{
+
+    background-color:rgb(15, 15, 19);
+    border: 1px rgb(68, 68, 66) solid ;
+    border: 1px rgb(66, 65, 65) solid ;
+  
+    color: rgb(255, 231, 10);
+
+}
+#tabla p{
+
+    font-size: larger;
+    text-align: center;
+    color:rgb(99, 16, 16);
+}
